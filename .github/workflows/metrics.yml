@@ -25,7 +25,7 @@ jobs:
           optimize: css, xml, svg
           experimental_features: --optimize-svg
           output_action: commit
-          committer_branch: metrics-renders
+          committer_branch: master
           committer_message: "chore: update metrics"
           retries: 3
           retries_delay: 300
