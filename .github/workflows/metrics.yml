@@ -32,7 +32,6 @@ jobs:
           retries_output_action: 5
           retries_delay_output_action: 120
           use_prebuilt_image: yes
-          filename: metrics.plugin.achievements.svg
           base:  header, activity, community, repositories, metadata
           plugin_achievements: yes
           plugin_achievements_only: >-
