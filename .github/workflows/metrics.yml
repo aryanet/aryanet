@@ -24,13 +24,6 @@ jobs:
           config_output: insights
           optimize: css, xml, svg
           experimental_features: --optimize-svg
-          output_action: commit
-          committer_branch: master
-          committer_message: "chore: update metrics"
-          retries: 3
-          retries_delay: 300
-          retries_output_action: 5
-          retries_delay_output_action: 120
           base:  header, activity, community, repositories, metadata
           plugin_achievements: yes
           plugin_achievements_only: >-
